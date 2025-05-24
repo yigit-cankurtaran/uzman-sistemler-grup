@@ -1,0 +1,44 @@
+[
+  {"question": "I enjoy building or repairing things with my hands.", "dimension": "realistic"},
+  {"question": "I like working outdoors and being physically active.", "dimension": "realistic"},
+  {"question": "I am comfortable using tools or machinery.", "dimension": "realistic"},
+  {"question": "I prefer practical tasks over theoretical ones.", "dimension": "realistic"},
+  {"question": "I like operating vehicles or mechanical equipment.", "dimension": "realistic"},
+  {"question": "I enjoy tasks that involve strength or endurance.", "dimension": "realistic"},
+
+  {"question": "I enjoy solving puzzles and logical problems.", "dimension": "investigative"},
+  {"question": "I like analyzing data and conducting research.", "dimension": "investigative"},
+  {"question": "I enjoy thinking abstractly and conceptually.", "dimension": "investigative"},
+  {"question": "I prefer tasks that involve reasoning and analysis.", "dimension": "investigative"},
+  {"question": "I am interested in how things work and why.", "dimension": "investigative"},
+  {"question": "I enjoy experimenting and exploring new ideas.", "dimension": "investigative"},
+
+  {"question": "I enjoy expressing myself through art or music.", "dimension": "artistic"},
+  {"question": "I prefer unstructured environments and freedom to create.", "dimension": "artistic"},
+  {"question": "I like writing stories, poems, or journaling.", "dimension": "artistic"},
+  {"question": "I enjoy designing or decorating spaces.", "dimension": "artistic"},
+  {"question": "I often come up with original ideas or solutions.", "dimension": "artistic"},
+  {"question": "I enjoy exploring emotions and aesthetics.", "dimension": "artistic"},
+
+  {"question": "I like helping others with their problems.", "dimension": "social"},
+  {"question": "I enjoy working in teams and collaborating.", "dimension": "social"},
+  {"question": "I find satisfaction in teaching or mentoring.", "dimension": "social"},
+  {"question": "I value empathy and understanding in interactions.", "dimension": "social"},
+  {"question": "I enjoy engaging in community service or volunteering.", "dimension": "social"},
+  {"question": "I feel comfortable communicating with a variety of people.", "dimension": "social"},
+
+  {"question": "I like taking initiative and leading projects.", "dimension": "enterprising"},
+  {"question": "I enjoy persuading or negotiating with others.", "dimension": "enterprising"},
+  {"question": "I am comfortable taking calculated risks.", "dimension": "enterprising"},
+  {"question": "I strive to achieve goals and compete.", "dimension": "enterprising"},
+  {"question": "I enjoy promoting ideas or products.", "dimension": "enterprising"},
+  {"question": "I see myself as ambitious and confident.", "dimension": "enterprising"},
+
+  {"question": "I like working with clear rules and procedures.", "dimension": "conventional"},
+  {"question": "I enjoy organizing data or files.", "dimension": "conventional"},
+  {"question": "I prefer structured tasks and routine.", "dimension": "conventional"},
+  {"question": "I am comfortable following detailed instructions.", "dimension": "conventional"},
+  {"question": "I find satisfaction in keeping things orderly.", "dimension": "conventional"},
+  {"question": "I enjoy planning and scheduling tasks.", "dimension": "conventional"}
+]
+
