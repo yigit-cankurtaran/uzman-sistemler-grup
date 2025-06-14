@@ -99,10 +99,36 @@ def predict(model_path: Path, json_path: Path, top_k: int) -> None:
     if len(labels) < probs.size:
         labels.extend(f"class_{i}" for i in range(len(labels), probs.size))
 
+    SOC_MAJOR = {
+        11: "management",
+        13: "biz / finance",
+        15: "comp & math",
+        17: "architecture / engineering",
+        19: "science",
+        21: "community & social svc",
+        23: "legal",
+        25: "education / library",
+        27: "arts / media",
+        29: "healthcare",
+        31: "health support",
+        33: "protective service",
+        35: "food prep & serving",
+        37: "building / grounds",
+        39: "personal care",
+        41: "sales",
+        43: "office / admin",
+        45: "farming / fishing",
+        47: "construction",
+        49: "install / repair",
+        51: "production",
+        53: "transportation",
+    }
+
     top_idx = probs.argsort()[-top_k:][::-1]
     print("recommended careers →")
     for rank, idx in enumerate(top_idx, 1):
-        print(f"{rank}. {labels[idx]} — {blurb(traits)} (p={probs[idx]:.2f})")
+        nice = SOC_MAJOR.get(int(labels[idx]), labels[idx])
+        print(f"{rank}. {nice} — {blurb(traits)} (p={probs[idx]:.2f})")
 
 
 # ---------- cli -------------------------------------------------------------
