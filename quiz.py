@@ -3,7 +3,7 @@ import random
 from collections import defaultdict
 
 # config: kaç soru sorulacak (max 36)
-NUM_QUESTIONS = 5
+NUM_QUESTIONS = 25
 QUIZ_SOURCE = "sorular.json"
 RESULT_OUTPUT = "cevaplar.json"
 
