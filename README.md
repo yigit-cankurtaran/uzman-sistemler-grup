@@ -5,34 +5,15 @@ Bu proje, **RIASEC (Holland Codes)** modeline dayalı, kural tabanlı ve makine 
 ## 🚀 Proje Özellikleri
 
 - Kullanıcıdan **ilgi ve tercihleri** ile ilgili sorular alır
-- **Kural tabanlı çıkarım (IF–THEN kuralları)** ile öneriler sunar
-- **Makine öğrenmesi modeli** ile veriye dayalı öneriler üretir
+- **Makine öğrenmesi modeli** ile öneriler sunar
 - **RIASEC profili** oluşturur ve buna dayalı meslek önerileri yapar
-- Kullanıcı geri bildirimleriyle öneri doğruluğunu artırabilir (planlanan)
 
-## 📦 Kullanılan Veri Setleri
-
-**Karar Verilecek**
-
-## 🏗️ Planlanan Proje Yapısı
-
-```
-/src
-  ├── main.py
-  ├── rules.json
-  ├── model.pkl
-/tests
-  ├── test_input.json
-README.md
-requirements.txt
-```
-
-## 🧠 Kullanılacak Teknolojiler
+## 🧠 Kullanılan Teknolojiler
 
 - Python 3.x
-- scikit-learn
+- pytorch
 - pandas
-- JSON (kural tabanı formatı)
+- JSON (cevaplar formatı)
 
 ## 🔍 Çalıştırmak için
 
@@ -48,4 +29,4 @@ requirements.txt
    python main.py
    ```
 
-3. Gelen soruları yanıtlayın -> önerilen meslekleri alın.
+3. Gelen soruları yanıtlayın.
