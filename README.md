@@ -13,6 +13,7 @@ Bu proje, **RIASEC (Holland Codes)** modeline dayalı, kural tabanlı ve makine 
 - Python 3.x
 - pytorch
 - pandas
+- scikit-learn
 - JSON (cevaplar formatı)
 
 ## 🔍 Çalıştırmak için
