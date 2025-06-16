@@ -18,11 +18,7 @@ Bu proje, **RIASEC (Holland Codes)** modeline dayalı, kural tabanlı ve makine 
 
 ## 🔍 Çalıştırmak için
 
-1. Dependency yükleyin:
-
-   ```
-   pip install -r requirements.txt
-   ```
+1. Dependencyleri yükleyin.
 
 2. Sistemi çalıştırın:
 
@@ -31,3 +27,13 @@ Bu proje, **RIASEC (Holland Codes)** modeline dayalı, kural tabanlı ve makine 
    ```
 
 3. Gelen soruları yanıtlayın.
+
+4. Modeli eğitin
+```
+python training.py --data_path=dataset.csv --epochs=200 --patience=20
+```
+
+5. Modeli cevaplar üzerinde çalıştırın
+```
+python inference.py --json_path cevaplar.json
+```
